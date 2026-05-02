@@ -1,192 +1,267 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instituo Politécnico Formosam- Inicio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto Politécnico Formosa - Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+  <body style="background-color: #f0f2f4; color: #262a2d">
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-ipf">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo.png" alt="Logo IPF" height="40"> IPF
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="institucional.html">Institucional</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="carreras.html">Carreras</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo IPF" height="40" /> IPF
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institucional.html">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <main>
-      <!--sección de bienvenida-->
-      <section class="bg-success text-white text-center py-5">
+      <!-- seccion bienvenida -->
+      <section
+        class="text-white text-center py-5"
+        style="background-color: #068587"
+      >
         <div class="container">
           <h1>Bienvenidos al Instituto Politécnico Formosa</h1>
-          <p class="lead">Formación técnica y tecnológica superior al servicio del desarrollo de Formosa</p>
-          <a href="carreras.html" class="btn btn-light me-4">Ver Carreras</a>
+          <p class="lead">
+            Formación técnica y tecnológica superior al servicio del desarrollo
+            de Formosa
+          </p>
+          <a href="carreras.html" class="btn btn-light me-2">Ver Carreras</a>
           <a href="contacto.html" class="btn btn-outline-light">Contactanos</a>
         </div>
       </section>
 
-      <!--carrusel: bootstrap-->
-      <section class="py-5">
+      <!-- Carrusel -->
+      <section class="py-5" style="background-color: #ffffff">
         <div class="container">
-          <h2 class="text-center mb-4">Nuestro Instituto</h2>
+          <h2 class="text-center mb-4" style="color: #068587">
+            Nuestro Instituto
+          </h2>
           <div id="carruselIPF" class="carousel slide" data-bs-ride="carousel">
-
-            <div class="carsouel-indicators">
-              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="2"></button>
-            </div>
-
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/img/carousel-1.png" alt="IPF Edificio">
+                <img
+                  src="assets/img/carousel-1.png"
+                  class="d-block w-100"
+                  alt="IPF Edificio"
+                />
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Formación de calidad</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel-2.jpg" class="d-md-block w-100" alt="IPF aulas">
-                <div class="carosuel-caption d-none d-md-block">
+                <img
+                  src="assets/img/carousel-2.jpg"
+                  class="d-block w-100"
+                  alt="IPF aulas"
+                />
+                <div class="carousel-caption d-none d-md-block">
                   <h5>Laboratorios equipados</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel-3.jpg" class="d-md-block w-100" alt="IPF estudiantes">
+                <img
+                  src="assets/img/carousel-3.jpg"
+                  class="d-block w-100"
+                  alt="IPF estudiantes"
+                />
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Comunidad estudiantil</h5>
                 </div>
               </div>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carruselIPF" data-bs-slide="prev">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carruselIPF"
+              data-bs-slide="prev"
+            >
               <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carruselIPF" data-bs-slide="next"></button>
-            <span class="carousel-control-next-icon"></span>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carruselIPF"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
           </div>
         </div>
       </section>
 
-      <section class="py-5 bg-light">
+      <!-- card carreras -->
+      <section class="py-5" style="background-color: #f0f2f4">
         <div class="container">
-          <h2 class="text-center mb-4">Oferta Académica</h2>
+          <h2 class="text-center mb-4" style="color: #068587">
+            Oferta Académica
+          </h2>
           <div class="row g-4">
-
             <div class="col-sm-6 col-lg-3">
-              <div class="card h-1000">
+              <div class="card h-100">
                 <div class="card-body text-center">
-                  <i class="bi bi-flask" fs-1 text-success></i>
-                  <h5 class="card-title mt-2">Química Industrial</h5>
-                  <p class="card-text">Procesos industriales y control de calidad</p>
-                  <a href="carreras.html" class="btn btn-sucess btn-sm">Ver más</a>
+                  <i class="bi bi-eyedropper fs-1" style="color: #068587"></i>
+                  <h5 class="card-title mt-2" style="color: #068587">
+                    Química Industrial
+                  </h5>
+                  <p class="card-text">
+                    Procesos industriales y control de calidad
+                  </p>
+                  <a
+                    href="carreras.html"
+                    class="btn btn-sm text-white"
+                    style="background-color: #068587"
+                    >Ver más</a
+                  >
                 </div>
               </div>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-              <div class="card h-1000">
+              <div class="card h-100">
                 <div class="card-body text-center">
-                  <i class="bi bi-flask" fs-1 text-success></i>
-                  <h5 class="card-title mt-2">Mecatrónica</h5>
-                  <p class="card-text">Mecánica, electrónica y automatización</p>
-                  <a href="carreras.html" class="btn btn-sucess btn-sm">Ver más</a>
+                  <i class="bi bi-robot fs-1" style="color: #068587"></i>
+                  <h5 class="card-title mt-2" style="color: #068587">
+                    Mecatrónica
+                  </h5>
+                  <p class="card-text">
+                    Mecánica, electrónica y automatización
+                  </p>
+                  <a
+                    href="carreras.html"
+                    class="btn btn-sm text-white"
+                    style="background-color: #068587"
+                    >Ver más</a
+                  >
                 </div>
               </div>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-              <div class="card h-1000">
+              <div class="card h-100">
                 <div class="card-body text-center">
-                  <i class="bi bi-flask" fs-1 text-success></i>
-                  <h5 class="card-title mt-2">Telecomunicaciones</h5>
-                  <p class="card-text">Redes y sistemas de trasmisión de datos</p>
-                  <a href="carreras.html" class="btn btn-sucess btn-sm">Ver más</a>
+                  <i class="bi bi-broadcast fs-1" style="color: #068587"></i>
+                  <h5 class="card-title mt-2" style="color: #068587">
+                    Telecomunicaciones
+                  </h5>
+                  <p class="card-text">
+                    Redes y sistemas de transmisión de datos
+                  </p>
+                  <a
+                    href="carreras.html"
+                    class="btn btn-sm text-white"
+                    style="background-color: #068587"
+                    >Ver más</a
+                  >
                 </div>
               </div>
             </div>
 
             <div class="col-sm-6 col-lg-3">
-              <div class="card h-1000">
+              <div class="card h-100">
                 <div class="card-body text-center">
-                  <i class="bi bi-flask" fs-1 text-success></i>
-                  <h5 class="card-title mt-2">Desarrollo de Software</h5>
-                  <p class="card-text">Programación web y aplicaciones multiplataformas</p>
-                  <a href="carreras.html" class="btn btn-sucess btn-sm">Ver más</a>
+                  <i class="bi bi-code-slash fs-1" style="color: #068587"></i>
+                  <h5 class="card-title mt-2" style="color: #068587">
+                    Desarrollo de Software
+                  </h5>
+                  <p class="card-text">
+                    Programación web y aplicaciones multiplataforma
+                  </p>
+                  <a
+                    href="carreras.html"
+                    class="btn btn-sm text-white"
+                    style="background-color: #068587"
+                    >Ver más</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </main>
 
-  <!--footer-->
-<footer class="footer-ipf">
-  <div class="container">
-    <div class="row">
-      
-      <!-- Columna 1: Info del instituto -->
-      <div class="col-md-4 mb-3">
-        <h5>Instituto Politécnico Formosa</h5>
-        <p class="small">Formación técnica y tecnológica superior al servicio del desarrollo de la Provincia de Formosa.</p>
+    <!-- footer -->
+    <footer class="footer-ipf">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>Instituto Politécnico Formosa</h5>
+            <p class="small">
+              Formación técnica y tecnológica superior al servicio del
+              desarrollo de la Provincia de Formosa.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contacto</h5>
+            <address class="small">
+              <i class="bi bi-geo-alt"></i> Ruta Nac. 81 km. 1190, Formosa<br />
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:info@ipf.edu.ar">info@ipf.edu.ar</a><br />
+              <i class="bi bi-whatsapp"></i>
+              <a href="https://wa.me/543704860530">3704860530</a>
+            </address>
+          </div>
+        </div>
+        <div class="text-center pt-3 mt-3 border-top">
+          <p class="small mb-0">
+            &copy; 2025 Instituto Politécnico Formosa. Todos los derechos
+            reservados.
+          </p>
+        </div>
       </div>
-      
-      <!-- Columna 2: Navegación -->
-      <div class="col-md-4 mb-3">
-        <h5>Navegación</h5>
-        <ul class="list-unstyled">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="institucional.html"">Institucional</a></li>
-          <li><a href="carreras.html">Carreras</a></li>
-          <li><a href="contacto.html" >Contacto</a></li>
-        </ul>
-      </div>
-      
-      <!-- Columna 3: Contacto -->
-      <div class="col-md-4 mb-3">
-        <h5>Contacto</h5>
-        <address class="small">
-          <i class="bi bi-geo-alt"></i> Ruta Nac. 81 km. 1190, Formosa<br>
-          <i class="bi bi-envelope"></i> <a href="mailto:info@ipf.edu.ar" class="text-white">info@ipf.edu.ar</a><br>
-          <i class="bi bi-whatsapp"></i> <a href="https://wa.me/5437048660530" class="text-white">37048660530</a>
-        </address>
-      </div>
-      
-    </div>
-    
-    <!-- Línea inferior-->
-    <div class="text-center pt-3 mt-3 border-top border-light">
-      <p class="small mb-0">&copy; 2026 Instituto Politécnico Formosa. Todos los derechos reservados.</p>
-    </div>
-    
-  </div>
-</footer>
+    </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,49 @@
+/* style.css - Estilos generales del sitio IPF */
+
+:root {
+    --verde-azulado: #068587;
+    --azul-claro:    #76c1f7;
+    --amarillo:      #F2B134;
+    --gris-claro:    #f0f2f4;
+    --gris-oscuro:   #262a2d;
+    --gris-medio:    #666666;
+    --blanco:        #ffffff;
+}
+
+/* Navbar */
+.navbar-ipf {
+    background-color: var(--verde-azulado);
+}
+
+.navbar-ipf .navbar-brand,
+.navbar-ipf .nav-link {
+    color: var(--blanco) !important;
+}
+
+.navbar-ipf .nav-link:hover {
+    color: var(--amarillo) !important;
+}
+
+.navbar-ipf .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Footer */
+.footer-ipf {
+    background-color: var(--gris-oscuro);
+    color: var(--blanco);
+    padding: 2rem 0;
+}
+
+.footer-ipf a {
+    color: var(--azul-claro);
+    text-decoration: none;
+}
+
+.footer-ipf a:hover {
+    color: var(--amarillo);
+}
+
+.footer-ipf .border-top {
+    border-color: rgba(255,255,255,0.15) !important;
+}
