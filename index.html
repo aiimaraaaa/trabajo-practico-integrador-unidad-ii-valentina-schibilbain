@@ -6,9 +6,8 @@
     <title>Instituo Politécnico Formosam- Inicio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/index.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <body>
     <nav class="navbar navbar-expand-lg navbar-ipf">
         <div class="container">
@@ -36,7 +35,63 @@
             </div>
         </div>
     </nav>
-    <!-- FOOTER -->
+
+    <main>
+      <!--sección de bienvenida-->
+      <section class="bg-success text-white text-center py-5">
+        <div class="container">
+          <h1>Bienvenidos al Instituto Politécnico Formosa</h1>
+          <p class="lead">Formación técnica y tecnológica superior al servicio del desarrollo de Formosa</p>
+          <a href="carreras.html" class="btn btn-light me-4">Ver Carreras</a>
+          <a href="contacto.html" class="btn btn-outline-light">Contactanos</a>
+        </div>
+      </section>
+
+      <!--carrusel: bootstrap-->
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Nuestro Instituto</h2>
+          <div id="carruselIPF" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carsouel-indicators">
+              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carruselIPF" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel-1.png" alt="IPF Edificio">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Formación de calidad</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel-2.jpg" class="d-md-block w-100" alt="IPF aulas">
+                <div class="carosuel-caption d-none d-md-block">
+                  <h5>Laboratorios equipados</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel-3.jpg" class="d-md-block w-100" alt="IPF estudiantes">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Comunidad estudiantil</h5>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselIPF" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselIPF" data-bs-slide="next"></button>
+            <span class="carousel-control-next-icon"></span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  <!--footer-->
 <footer class="footer-ipf">
   <div class="container">
     <div class="row">
