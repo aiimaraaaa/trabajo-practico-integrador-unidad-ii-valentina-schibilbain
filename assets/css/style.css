@@ -63,12 +63,7 @@
 
 /* H1 solo blanco sin brillo */
 section h1 {
-  color: #ffffff !important;
+    color: #ffffff !important;
   font-weight: 800 !important;
   text-shadow: none;
-<<<<<<< HEAD
-}
-=======
-}
-
->>>>>>> dev-contacto
+} 
