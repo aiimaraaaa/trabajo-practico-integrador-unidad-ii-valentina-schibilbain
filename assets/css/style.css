@@ -47,3 +47,23 @@
 .footer-ipf .border-top {
     border-color: rgba(255,255,255,0.15) !important;
 }
+
+/* Navbar */
+.navbar-ipf {
+  background-color: #068587;
+  border-bottom: 3px solid #76c1f7;
+}
+
+/* navbar*/
+.navbar-ipf .navbar-brand span span {
+  color: #7e7777 !important;
+  font-weight: 800 !important;
+  text-shadow: 0 0 6px #ffffff, 0 0 12px #76c1f7, 0 0 25px #76c1f7;
+}
+
+/* H1 solo blanco sin brillo */
+section h1 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  text-shadow: none;
+}
