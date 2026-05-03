@@ -19,6 +19,6 @@ Sitio web responsivo del Instituto Politécnico Formosa desarrollado con HTML se
 ## Técnologias
 
 -HTML
--CSS3
+-CSS
 -Bootstrap 5.3
 -Git y Github
