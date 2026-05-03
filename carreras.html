@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPF</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- acá va el css específico de cada página -->
+  </head>
+  <body style="background-color: #f0f2f4; color: #262a2d">
+    <nav class="navbar navbar-expand-lg navbar-ipf">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo IPF" height="40" /> IPF
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institucional.html">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!--header-->
+
+      <section
+        class="text-white text-center py-4"
+        style="background-color: #ffffff"
+      >
+        <div class="container">
+          <h1>Oferta Académica</h1>
+        </div>
+      </section>
+
+      <!--tabs-->
+      <section class="py-5" style="background-color: #ffffff">
+        <div class="container">
+          <h2 class="text-center" style="color: #068587">
+            Nuestras Tecnicaturas
+          </h2>
+          <ul class="nav nav-tabs mb-4" id="tabCarreras" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#quimica"
+                aria-controls="quimica"
+                aria-selected="true"
+              >
+                <i class="bi bi-eyedropper me-1"></i>Química
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#mecatronica"
+                aria-controls="mecatronica"
+                aria-selected="false"
+              >
+                <i class="bi bi-robot me-1"></i>Mecatrónica
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#telecomunicaciones"
+                aria-controls="telecomunicaciones"
+                aria-selected="false"
+              >
+                <i class="bi bi-broadcast me-1"></i>Telecomunicaciones
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                type="button"
+                role="tab"
+                data-bs-toggle="tab"
+                data-bs-target="#software"
+                aria-controls="software"
+                aria-selected="false"
+              >
+                <i class="bi bi-code-slash me-1"></i>Software
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="quimica">
+              <h3 style="color: #068587">
+                Tecnicatura Superior en Química Industrial
+              </h3>
+              <p><strong>Duración</strong> 3 años</p>
+              <p>
+                Forma profesionales para gestionar procesos industriales con
+                transformaciones fisicas y quimicas, aplicar normas de seguridad
+                e higiene y realizar análisis de laboratorio.
+              </p>
+            </div>
+
+            <div class="tab-pane fade" id="mecatronica">
+              <h3 style="color: #068587">
+                Tecnicatura Superior en Mecatrónica
+              </h3>
+              <p><strong>Duración</strong> 3 años</p>
+              <p>
+                Integra mecánica, electrónica e informática para diseñar, operar
+                y mantener sistemas automatizados y robóticos aplicados a la
+                producción industrial.
+              </p>
+            </div>
+
+            <div class="tab-pane fade" id="telecomunicaciones">
+              <h3 style="color: #068587">
+                Tecnicatura Superior en Telecomunicaciones
+              </h3>
+              <p><strong>Duración</strong> 2 años y medio</p>
+              <p>
+                Prepara técnicos en redes de comunicación, sistemas de
+                transmisión, fibra óptica y comunicacines digitales.
+              </p>
+            </div>
+
+            <div class="tab-pane fade" id="software">
+              <h3 style="color: #068587">
+                Tecnicatura Superior en Desarrollo de Software Multiplataforma
+              </h3>
+              <p><strong>Duración</strong> 2 años</p>
+              <p>
+                Forma desarrolladores capaces de diseñar e implementar
+                aplicaciones web, móviles y de escritorio usando metodologías
+                ágiles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-ipf">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>Instituto Politécnico Formosa</h5>
+            <p class="small">
+              Formación técnica superior al servicio de Formosa.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contacto</h5>
+            <address class="small">
+              <i class="bi bi-geo-alt"></i> Ruta Nac. 81 km. 1190, Formosa<br />
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:info@ipf.edu.ar">info@ipf.edu.ar</a><br />
+              <i class="bi bi-whatsapp"></i>
+              <a href="https://wa.me/543704860530">3704860530</a>
+            </address>
+          </div>
+        </div>
+        <div class="text-center pt-3 mt-3 border-top">
+          <p class="small mb-0">&copy; 2025 Instituto Politécnico Formosa.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
